@@ -14,7 +14,7 @@ namespace SerializationDemo
         public void Serialization()
         {
             Demo sample = new Demo();
-            FileStream fileStream = new FileStream(@"\Example.txt", FileMode.Create);
+            FileStream fileStream = new FileStream(@"C:\Users\vicun\source\repos\SerializationDemo\SerializationDemo\Example.txt", FileMode.Create);
             BinaryFormatter formatter = new BinaryFormatter();
             formatter.Serialize(fileStream, sample);
             Console.ReadKey();
