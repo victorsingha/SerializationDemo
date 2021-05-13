@@ -10,6 +10,9 @@ namespace SerializationDemo
     {
         static void Main(string[] args)
         {
+            BinarySerialization binarySerialization = new BinarySerialization();
+            binarySerialization.Serialization();
+            Console.ReadKey();
         }
     }
 }
